@@ -2,6 +2,10 @@
 
 An application that allows users to search for images using the Unsplash API.
 
+## Demo
+
+View live [Image Finder](https://image-finder-bysaiful.netlify.app/)
+
 ## Features
 
 - **Image Search**: Users can enter a search term and retrieve relevant images from Unsplash.
