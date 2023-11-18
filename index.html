@@ -35,49 +35,22 @@
         </div>
     </header>
 
-    <div class=" w-11/12 mx-auto px-5 py-2 lg:px-auto lg:pt-12">
+    <div class=" w-11/12 mx-auto flex flex-col justify-center px-5 py-2 lg:px-auto lg:pt-12">
         <div class="search-box flex items-center justify-center gap-5 mb-6 ">
-            <input id="searchInput" type="text" placeholder="Type here" class="input input-bordered  w-full max-w-xs" />
-            <button id="searchbtn" class="btn btn-neutral btn-xm">Search</button>
+            <input id="searchInput" type="text" placeholder="Search here" class="input input-bordered input-primary w-full max-w-xs" />
+            <button id="searchbtn" class="btn btn-primary btn-xm">Search</button>
         </div>
-        <div id="photosWrapper" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  ">
-            <div class="">
-                <div class="w-full p-1 md:p-2">
-                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                        src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
-                </div>
+         <div id="photosWrapper" class="flex justify-center flex-wrap gap-4">
+           
 
-            </div>
-            <div class="">
-                <div class="w-full p-1 md:p-2">
-                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                        src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp" />
-                </div>
-            </div>
-            <div class="">
-                <div class="w-full p-1 md:p-2">
-                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                        src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
-                </div>
-            </div>
-            <div class="">
-                <div class="w-full p-1 md:p-2">
-                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                        src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
-                </div>
-            </div>
-            <div class="">
-                <div class="w-full p-1 md:p-2">
-                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                        src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp" />
-                </div>
-            </div>
-            <div class="p">
-                <div class="w-full p-1 md:p-2">
-                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                        src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
-                </div>
-            </div>
+        </div>
+        <div id="loading" class="w-fit mx-auto my-3 hidden">
+            <span class="loading loading-spinner text-primary "></span>
+        </div>
+        
+
+        <div class="showMore w-fit mx-auto mt-4">
+            <button id="showMoreBtn" class="btn btn-primary hidden">Show More</button>
         </div>
     </div>
 
